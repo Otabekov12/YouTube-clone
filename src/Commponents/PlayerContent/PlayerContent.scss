@@ -1,0 +1,97 @@
+.play__box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.homecontent__video{
+    width: 100%;
+    height: 500px;
+    border-radius: 14px;
+    list-style-type: none;
+}
+.right{
+    width: 40%;
+}
+.left{
+    width: 800px;
+}
+
+.homecont__img{
+    height: 250px;
+    width: 80%;
+    border-radius: 14px;
+    list-style-type: none;
+}
+
+
+.accaunt__right{
+    display: flex;
+    align-items: center;
+    // justify-content: start;
+    // justify-content: space-between;
+}
+.accaunt__right__title{
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 295px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #19202C;
+}
+
+.accaunt__right__text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #19202C;
+}
+
+
+.player__boxes{
+    display: flex;
+    align-items: center;
+}
+
+.pla{
+    margin-left: 8px;
+    margin-right: 290px;
+}
+
+.play__text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #C2C2C2;
+}
+
+.play__link{
+    list-style-type: none;
+}
+
+.homecontent__text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.play__boxer{
+    display: flex;
+    align-items: start;
+}
+
+.accaunt__button__box{
+    margin-top: 15px;
+}

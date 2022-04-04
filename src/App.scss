@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../src/fonts/mulish-v10-latin-regular.woff2') format('woff2'), 
+         url('../src/fonts/mulish-v10-latin-regular.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../src/fonts/mulish-v10-latin-700.woff2') format('woff2'), 
+         url('../src/fonts/mulish-v10-latin-700.woff') format('woff'); 
+  }
+
+.email__input{
+    text-align: center;
+    outline: none;
+    margin-right: 12px;
+    width: 140px;
+    height: 30px;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+}
+
+.password__input{
+    text-align: center;
+    outline: none;
+    margin-right: 12px;
+    width: 140px;
+    height: 30px;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+}
+
+
+
+.login__btn{
+    width: 95px;
+    height: 30px;
+    font-family: 'Faustina';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 5, 68);
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+}
+
+.login__btn:hover{
+    box-shadow: inset 95px 0 0 0 #f9e506;
+    cursor:pointer ;
+    color: #000;
+}
+
+.login__form{
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px solid black;
+}
+
+.homecontent__text__p{
+    text-decoration: none;
+}
+
+
+
+

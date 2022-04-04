@@ -1,0 +1,109 @@
+.youtube__imgs{
+    display: flex;
+    align-items: center;
+}
+.bnma {
+    display: flex;
+}
+.youtube__burger{
+    margin-right: 28px;
+}
+
+.nav__item{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav__icons{
+    margin-right: 13px;
+}
+
+.nav__list {
+    padding: 0;
+    
+}
+.nav__item {
+    padding: 10px;
+}
+
+.nav__link{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav_title{
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+}
+
+.influcer__link{
+    display: flex;
+    text-decoration: none;
+}
+
+.influcer__list{
+    padding: 0;
+    padding-left: 5px;
+}
+
+.influcer__item{
+    list-style-type: none;
+}
+
+.influcer__title{
+    padding-left: 5px;
+}
+
+.influcer__avatar{
+    margin-right: 10px;
+}
+
+.influcer__name{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+}
+
+.nav__setting{
+    padding-left: 8px;
+}
+
+.nav__box{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav__setting{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+    
+}
+
+.influcer__title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.logo{
+    margin-right: 40px;
+}
